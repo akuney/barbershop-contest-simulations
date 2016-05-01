@@ -103,10 +103,23 @@ chorus_prelims_2016 = {
 "alliance": [85.3],
 "sound_of_illinois": [84.0],
 "southern_gateway": [84.0],
-"men_of_independence": [82.9]
+"men_of_independence": [82.9],
+"northwest_sound": [82.8],
+"new_tradition": [82.5],
+"senate-aires": [82.3],
+"harbourtown": [82.2],
+"tidelanders": [82.1],
+"avp": [81.9],
+"mve": [81.5],
+"thx": [80.8],
+"vocal_revolution": [80.6],
+"cve": [79.6],
+"great_lakes_chorus": [79.3],
+"thoroughbreds": [78.7],
+"upstate_harmonizers": [75.4]
 }
 
-chorus_prelims_2011 = {
+chorus_prelims_2012 = {
 "aoh": [94.6],
 "gnu": [93.7],
 "kvu": [87.7],
@@ -121,4 +134,30 @@ chorus_prelims_2011 = {
 "big_orange": [82.1],
 "mve": [81.8],
 "salem": [81.6]
+}
+
+prelims_2002 = {
+"uptown_sound": [86.6, 86.3, 87.2, 86.4],
+"metropolis": [85.8, 85.3, 86.2, 85.5],
+"riptide": [86.1, 87.2, 84.7, 85.0],
+"power_play": [85.3, 87.0, 84.7, 85.3],
+"excalibur": [85.0, 86.7, 85.3, 84.9],
+"four_voices": [84.5, 84.3, 86, 87],
+"gotcha": [84.9, 85.1, 85.3, 85.4],
+"finale": [84.8, 85.6, 83.0, 84.1],
+"cheers": [83.2, 84.7, 84.3, 82.8],
+"freelancers": [81.8, 83.6, 82.2, 83.4]
+}
+
+prelims_2009 = {
+"crossroads": [89.7, 89.8, 90.8, 93.0],
+"state_line_grocery": [86.7, 86.7, 90.5, 88.3],
+"old_school": [87.3, 87.2, 87.5, 88.8],
+"masterpiece": [85.3, 85.4, 86.3, 86.0],
+"glory_days": [85.3, 84.8, 84.5, 84.2],
+"the_allies": [83.4, 84.8, 83.8, 85.6],
+"storm_front": [84.3, 80.9, 86.2, 84.6],
+"ringmasters": [82.3, 83.3, 84.7, 85.7],
+"three_men_and_a_melody": [82.2, 82.7, 81.2, 83.3],
+"men_in_black": [82.0, 81.7, 82.3, 82.2]
 }

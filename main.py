@@ -1,9 +1,9 @@
 import numpy, operator
-from collections import Counter
+from collections import Counter, OrderedDict
 
 from data import *
 
-input_data = prelims_2016
+input_data = prelims_2010_snippet
 num_trials = 1000
 num_simulations = 1
 
@@ -36,7 +36,6 @@ def compute_contest_results(input_data, summary_data):
 			simulated_score = 0
 			for j in range(num_simulations):
 				simulated_score = simulated_score + mean + (std * numpy.random.randn())
-			simulated_score = simulated_score / 6.0
 			simulated_scores[i][qtet_name] = simulated_score
 
 		sorted_result = sorted(
@@ -53,10 +52,10 @@ def compute_contest_results(input_data, summary_data):
 summary_data = compute_summary_data(input_data)
 contest_results = compute_contest_results(input_data, summary_data)
 
-for qtet_name in contest_results:
+for qtet_name in OrderedDict(sorted(contest_results.items())):
 	print qtet_name
 	placements = Counter(contest_results[qtet_name])
 	print sum(i[1] for i in placements.items() if i[0] < 6)
-	print sum(i[1] for i in placements.items() if i[0] < 2)
+	print sum(i[1] for i in placements.items() if i[0] == 1)
 	# print sorted(placements.items(), key=operator.itemgetter(0))
 
